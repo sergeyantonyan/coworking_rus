@@ -1,0 +1,47 @@
+header {
+  position: relative;
+  background-color: #11051d;
+}
+.cw-logo{
+  position: absolute;
+  top: 0;
+  img{
+    height: 150px;
+    width: 115px;
+  }
+}
+.cw-nav{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  .cw-socicons{
+    display: inline-block;
+    a{
+      margin-right: 5px;
+      text-decoration: none;
+      &:nth-child(3){
+        margin-right: 10px;
+      }
+      img{
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+  ul{
+    display: inline-block;
+    margin-bottom: 0;
+    li{
+      display: inline-block;
+      padding-right: 5px;
+      a{
+        color: #fff;
+        font-size: 13px;
+        font-weight: 600;
+        text-decoration: none;
+        &:hover {
+          border-bottom: 2px solid #fff;
+        }
+      }
+    }
+  }
+}
