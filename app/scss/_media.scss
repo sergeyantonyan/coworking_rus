@@ -43,5 +43,26 @@
 
 // ≤1200px
 @include media-breakpoint-up(xl) {
-	
+  .cw-nav{
+    .cw-socicons{
+      a{
+        margin-right: 10px;
+        &:nth-child(3){
+          margin-right: 30px;
+        }
+        img{
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+    ul{
+      li{
+        padding-right: 10px;
+        a{
+          font-size: 16px;
+        }
+      }
+    }
+  }
 }
