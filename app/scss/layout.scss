@@ -5,6 +5,10 @@
 	{
 	    font-weight: 400;
 	}
+	.cw-pricing--description
+	{
+		font-size: 12px;
+	}
 	.cw-price--box
 	{
 		background: white;
@@ -72,3 +76,83 @@
 	color: #7f7f7f;
 }
 
+.cw-rounds--round
+{
+	padding-top: 40px;
+	position: relative;
+}
+.cw-rounds--round֊green
+{
+	.cw-round
+	{
+		border-color: green;
+		background: green
+	}
+	.cw-round--text
+	{
+		color: green;
+	}
+	.cw-round--middle
+	{
+		background: green;
+	}
+}
+.cw-rounds--round֊gray
+{
+	.cw-round
+	{
+		border-color: gray;
+		background: gray
+	}
+	.cw-round--text
+	{
+		color: gray;
+	}
+	.cw-round--middle
+	{
+		background: gray;
+	}
+}
+.cw-rounds--round֊yellow
+{
+	.cw-round
+	{
+		border-color: yellow;
+		background: yellow
+	}
+	.cw-round--text
+	{
+		color: yellow;
+	}
+	.cw-round--middle
+	{
+		background: yellow;
+	}
+}
+.cw-round
+{
+	position: relative;
+	width: 40px;
+	height: 40px;
+	padding: 5px;
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid #ed455e;
+	background: #ed455e;
+}
+.cw-round--middle
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 40-6px;
+	height: 40-6px;
+	border-radius: 50%;
+	border: 3px solid #f7f8fa;
+	background: #ed455e;
+}
+.cw-rounds--round
+{
+	margin: 10px;
+}

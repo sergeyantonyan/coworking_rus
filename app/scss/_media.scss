@@ -28,7 +28,11 @@
 
 // ≤576px
 @include media-breakpoint-up(sm) {
-
+  .cw-pricing--description
+  {
+    font-size: 16px;
+    white-space: pre-line;
+  }
 }
 
 // ≤768px
