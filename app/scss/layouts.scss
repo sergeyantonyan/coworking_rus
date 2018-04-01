@@ -59,3 +59,25 @@
     }
   }
 }
+.cw-open--bpoint{
+  margin-top: 50px;
+  .cw-open--header{
+    h2{
+      color: #000;
+      font-size: 20px;
+      font-weight: 900;
+    }
+  }
+  .cw-bpoint--reason{
+    padding-bottom: 100px;
+    img{
+      padding-bottom: 20px;
+      height: 80px;
+    }
+    p{
+      white-space: pre-line;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+  }
+}
