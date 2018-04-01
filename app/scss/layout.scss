@@ -84,62 +84,86 @@
 {
 	position: absolute;
 	width: 100%;
-	height: 3px;
+	height: 1px;
 	display: inline-block;
-	background: red;
+	background: #959595;
 	top: 30px;	
+	z-index: 0;
 }
 .cw-rounds--round
 {
 	/*padding-top: 40px;*/
 	position: relative;
+	z-index: 1;
+}
+.cw-round--text
+{
+	margin-left: 10px;
+	font-size: 12px;
+	white-space: pre-line;
+}
+.cw-rounds--round֊red
+{
+	.cw-round
+	{
+		border-color: #e8445c;
+		background: #e8445c
+	}
+	.cw-round--text
+	{
+		color: #e8445c;
+	}
+	.cw-round--middle
+	{
+		background: #e8445c;
+	}
 }
 .cw-rounds--round֊green
 {
 	.cw-round
 	{
-		border-color: green;
-		background: green
+		border-color: #a1c66c;
+		background: #a1c66c
 	}
 	.cw-round--text
 	{
-		color: green;
+		color: #a1c66c;
 	}
 	.cw-round--middle
 	{
-		background: green;
+		background: #a1c66c;
 	}
 }
 .cw-rounds--round֊gray
 {
 	.cw-round
 	{
-		border-color: gray;
-		background: gray
+		border-color: #959595;
+		background: #959595
 	}
 	.cw-round--text
 	{
-		color: gray;
+		color: #959595;
 	}
 	.cw-round--middle
 	{
-		background: gray;
+		background: #959595;
 	}
 }
 .cw-rounds--round֊yellow
 {
 	.cw-round
 	{
-		border-color: yellow;
-		background: yellow
+		border-color: #9b8d18;
+		background: #9b8d18
 	}
 	.cw-round--text
 	{
-		color: yellow;
+		color: #9b8d18;
 	}
 	.cw-round--middle
 	{
-		background: yellow;
+		background: #9b8d18;
 	}
 }
 .cw-round
@@ -168,4 +192,49 @@
 .cw-rounds--round
 {
 	margin: 10px;
+	width: 150px;
 }
+.cw-coworking--section
+{
+	border-bottom: 2px solid #e7e4eb;
+}
+.cw-audits
+{
+	position: relative;
+	height: 100px
+}
+.cw-audits--textbig
+{
+	position: absolute;
+	color: white;
+}
+.cw-audits--roundbig
+{
+	position: absolute;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	display: inline-block; 
+	background: #df6e6e;
+}
+.cw-audits--textsm
+{
+	position: absolute;
+	color: white;
+}
+
+.cw-audits--roundsm
+{
+	position: absolute;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	display: inline-block; 
+	background: #909090;
+}
+/*
+	.cw-audits--textbig
+	.cw-audits--roundbig
+	.cw-audits--textsm
+	.cw-audits--roundsm
+*/
