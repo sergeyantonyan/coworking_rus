@@ -248,9 +248,29 @@
 	bottom: 7px;
 	left: 150px;
 }
-/*
-	.cw-audits--textbig
-	.cw-audits--roundbig
-	.cw-audits--textsm
-	.cw-audits--roundsm
-*/
+.cw-delovoy--description
+{
+	white-space: pre-line;
+}
+.cw-pricing--delovoy
+{
+	.cw-price--box---description
+	{
+		margin-top: 40px;
+	}
+}
+.cw-features--description
+{
+	margin: 0 60px;
+}
+.cw-feature--round---img
+{
+	width: 100px;
+}
+.cw-feature--round---text
+{
+	color: #d3350b;
+	margin-top: 10px;
+	font-size: 12px;
+	font-weight: 500;
+}
