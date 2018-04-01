@@ -274,6 +274,46 @@
 	font-size: 12px;
 	font-weight: 500;
 }
+.cw-post--hero
+{
+	background: white;
+	height: 250px;
+	width: 100%;
+	background-position: center;	
+}
+.cw-post--title
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	font-weight: 600;
+	color: #3144d3;
+}
+.cw-post--description
+{
+	font-weight: 600;
+}
+.cw-post--hero1
+{
+	background-image: url("../img/meeting-1.png");
+}
+.cw-post--hero2
+{
+	background-image: url("../img/meeting-2.png");
+}
+.cw-post--hero3
+{
+	background-image: url("../img/meeting-3.png");
+}
+
+/*
+<div class="cw-post">
+	<div class="cw-post--hero cw-post--hero1"></div>
+	<div class="cw-post--title">1n Start-Up Geeks, Top US Spaces</div>
+	<div class="cw-post--description">Quuntur magni dolores eos quis rat</div>
+</div>
+*/
+
 footer
 {
 	color: white;
