@@ -3,17 +3,37 @@ header {
   background-color: #11051d;
 }
 .cw-logo{
-  position: absolute;
-  top: 0;
-  z-index: 10;
+  display: inline-block;
+  background: white;
+  padding-bottom: 10px;
   img{
-    height: 150px;
-    width: 115px;
+    width: 86px;
+    padding: 10px 15px;
+    border-top: 4px solid #ed445e;
+  }
+  .cw-logo--text---big
+  {
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;    
+    line-height: 15px;
+  }
+  .cw-logo--text---small
+  {
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 9px;
+    text-align: center;    
   }
 }
+/* 
+            <div class="cw-logo">
+                <img src="img/logo.png">
+                <div class="cw-logo--text---big">BUSINESS</div>
+                <div class="cw-logo--text---small">POINT</div>
+            </div>
+ */
 .cw-nav{
-  padding-bottom: 20px;
-  padding-top: 20px;
   .cw-socicons{
     display: inline-block;
     a{

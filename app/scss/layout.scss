@@ -1,6 +1,6 @@
 .cw-pricing
 {
-	background: #f7f8fa;
+	background: #fff;
 	h2
 	{
 	    font-weight: 400;
@@ -88,12 +88,14 @@
 .cw-rounds-container--line
 {
 	position: absolute;
-	width: 100%;
 	height: 1px;
 	display: inline-block;
 	background: #959595;
 	top: 30px;	
 	z-index: 0;
+	width: 540px;
+	left: 50%;
+	transform: translateX(-50%);
 }
 .cw-rounds--round
 {
@@ -199,10 +201,6 @@
 	margin: 10px;
 	width: 150px;
 }
-.cw-coworking--section
-{
-	border-bottom: 2px solid #e7e4eb;
-}
 .cw-audits
 {
 	position: relative;
@@ -227,7 +225,7 @@
 	width: 100px;
 	height: 100px;
 	display: inline-block; 
-	background: #df6e6e;
+	background: #ed445e;
 	left: 68px;
 }
 .cw-audits--textsm
