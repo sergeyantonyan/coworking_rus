@@ -213,7 +213,7 @@
 {
 	text-align: center;
 	font-size: 12px;
-	font-weight: 900;
+	font-weight: 600;
 	position: absolute;
 	color: black;
 	white-space: pre-line;
@@ -232,7 +232,7 @@
 {
 	text-align: center;
 	font-size: 12px;
-	font-weight: 900;
+	font-weight: 600;
 	position: absolute;
 	color: black;
 	white-space: pre-line;
@@ -289,12 +289,12 @@
 	margin-top: 20px;
 	margin-bottom: 20px;
 	font-size: 12px;
-	font-weight: 600;
+	font-weight: 500;
 	color: #3144d3;
 }
 .cw-post--description
 {
-	font-weight: 600;
+	font-weight: 500;
 }
 .cw-post--hero1
 {
@@ -315,6 +315,26 @@ footer
 	{
 		background: #11051d;
 		font-size: 12px;
-		font-weight: 700;
+		font-weight: 600;
 	}
+}
+.cw-slider
+{
+	position: relative;
+}
+.cw-slider--arrow
+{
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cw-arrow--left
+{
+	transform: rotate(180deg);
 }

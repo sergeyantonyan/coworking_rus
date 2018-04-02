@@ -77,26 +77,27 @@
     </header>
 </section>
 <!-- HEADER /-->
-
-<div class="owl-carousel owl-theme">
-    <div class="item">
-        <!-- HERO -->
-        <section class="page-section page-hero" style="background-image: url('img/page-hero.jpg');">
-            <div class="container-fluid">
-                <div class="row justify-content-center align-items-center page-hero--content d-flex">
-                    <div class="col-sm-9">
-                        <div class="mx-auto">
-                            <h1>BUSINESS POINT</h1>
-                            <p>новый уникальный проект в области сопровождения бизнеса <br>
-                                с полным или частичным вовлечением социально <br>
-                                активной части населения.</p>
-                            <p>При поддержке “Первого Неофициального канала”</p>
+<div class="cw-slider">
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <!-- HERO -->
+            <section class="page-section page-hero" style="background-image: url('img/page-hero.jpg');">
+                <div class="container-fluid">
+                    <div class="row justify-content-center align-items-center page-hero--content d-flex">
+                        <div class="col-sm-9">
+                            <div class="mx-auto">
+                                <h1>BUSINESS POINT</h1>
+                                <p>новый уникальный проект в области сопровождения бизнеса <br>
+                                    с полным или частичным вовлечением социально <br>
+                                    активной части населения.</p>
+                                <p>При поддержке “Первого Неофициального канала”</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- HERO /-->
+            </section>
+            <!-- HERO /-->
+        </div>
     </div>
 </div>
 <main>
@@ -765,6 +766,25 @@
 </footer>
 <script src="js/scripts.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
-
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        nav:true,
+        navElement: 'div',
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        },
+        navText: ['<div class="cw-arrow--left"><img width="20" src="img/icons/right-arrow.svg"></div>', '<div class="cw-arrow--right"><img width="20" src="img/icons/right-arrow.svg"></div>'],
+        navClass: ['owl-prev', 'owl-next']
+    })    
+</script>
 </body>
 </html>
