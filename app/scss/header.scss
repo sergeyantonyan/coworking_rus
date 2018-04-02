@@ -4,12 +4,40 @@ header {
 }
 .cw-logo{
   display: inline-block;
-  background: white;
   padding-bottom: 10px;
+  background: transparent;
+  border-top: 4px solid #fff;
   img{
     width: 86px;
     padding: 10px 15px;
-    border-top: 4px solid #ed445e;
+  }
+  .cw-logo--normal
+  {
+    display: block;
+  }
+  .cw-logo--hover
+  {
+    display: none;    
+  }  
+  &:hover
+  {
+    border-color: #ed445e;
+    .cw-logo--text---big
+    {
+      color: #ed445e;
+    }
+    .cw-logo--text---small
+    {
+      color: #ed445e;
+    }
+    .cw-logo--normal
+    {
+      display: none;
+    }
+    .cw-logo--hover
+    {
+      display: block;
+    }
   }
   .cw-logo--text---big
   {
@@ -17,6 +45,7 @@ header {
     font-size: 15px;
     text-align: center;    
     line-height: 15px;
+    color: white;
   }
   .cw-logo--text---small
   {
@@ -24,15 +53,9 @@ header {
     font-size: 9px;
     line-height: 9px;
     text-align: center;    
+    color: white;
   }
 }
-/* 
-            <div class="cw-logo">
-                <img src="img/logo.png">
-                <div class="cw-logo--text---big">BUSINESS</div>
-                <div class="cw-logo--text---small">POINT</div>
-            </div>
- */
 .cw-nav{
   .cw-socicons{
     display: inline-block;
