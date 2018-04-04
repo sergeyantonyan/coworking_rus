@@ -3,17 +3,60 @@ header {
   background-color: #11051d;
 }
 .cw-logo{
-  position: absolute;
-  top: 0;
-  z-index: 10;
+  display: inline-block;
+  padding-bottom: 10px;
+  background: transparent;
+  border-top: 4px solid #fff;
   img{
-    height: 150px;
-    width: 115px;
+    width: 86px;
+    padding: 10px 15px;
+  }
+  .cw-logo--normal
+  {
+    display: block;
+  }
+  .cw-logo--hover
+  {
+    display: none;    
+  }  
+  &:hover
+  {
+    border-color: #ed445e;
+    .cw-logo--text---big
+    {
+      color: #ed445e;
+    }
+    .cw-logo--text---small
+    {
+      color: #ed445e;
+    }
+    .cw-logo--normal
+    {
+      display: none;
+    }
+    .cw-logo--hover
+    {
+      display: block;
+    }
+  }
+  .cw-logo--text---big
+  {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;    
+    line-height: 15px;
+    color: white;
+  }
+  .cw-logo--text---small
+  {
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 9px;
+    text-align: center;    
+    color: white;
   }
 }
 .cw-nav{
-  padding-bottom: 20px;
-  padding-top: 20px;
   .cw-socicons{
     display: inline-block;
     a{
@@ -37,7 +80,7 @@ header {
       a{
         color: #fff;
         font-size: 13px;
-        font-weight: 600;
+        font-weight: 500;
         text-decoration: none;
         &:hover {
           border-bottom: 2px solid #fff;
