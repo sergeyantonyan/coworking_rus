@@ -118,12 +118,11 @@ header {
   bottom: 0;
   left: 0;
   right: 0;
-  opacity: 0;
-  transition: opacity 0.5s;
+  display: none !important;
 }
 .cw-show
 {
-  opacity: 1;
+  display: flex !important;
 }
 .hamburger {
   font: inherit;
