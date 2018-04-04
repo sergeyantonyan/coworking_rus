@@ -30,16 +30,21 @@
     <header class="cw-header">
         <div class="container">
             <div class="row justify-content-center align-items-center">
-
-                <a href="javascript:void()">
+                <a href="#">
                     <div class="cw-logo">
                         <img class="cw-logo--normal" src="img/logo.png">
                         <img class="cw-logo--hover" src="img/logo-h.png">
                         <div class="cw-logo--text---big">BUSINESS</div>
                         <div class="cw-logo--text---small">POINT</div>
                     </div>
+                    <div id="hamburger" class="d-lg-none">
+                        <div class="hamburger hamburger--elastic js-hamburger">
+                            <div class="hamburger-box">
+                                <div class="hamburger-inner"></div>
+                            </div>
+                        </div>
+                    </div>
                 </a>
-                <div class="col-3 col-sm-1"></div>
                 <div class="d-none d-lg-block col-md-9 col-lg-9">
                     <nav class="cw-nav">
                         <div class="row">
@@ -75,6 +80,14 @@
             </div>
         </div>
     </header>
+    <div class="cw-header--mobile d-flex justify-content-center align-items-center flex-column" id="cwMenu">
+        <a href="#">Главная</a>
+        <a href="#">Особенности</a>
+        <a href="#">Деловой с овет</a>
+        <a href="#">Коворкинг</a>
+        <a href="#">Галерея</a>
+        <a href="#">Контакты</a>
+    </div>
 </section>
 <!-- HEADER /-->
 <div class="cw-slider">
@@ -196,9 +209,9 @@
                                 <img src="img/icons/light-bulb.svg" height="40" alt="Light">
                                 <h3>Membership</h3>
                                 <div class="cw-price--box---price d-flex flex-row align-center justify-content-center">
-                                    <p class="cw-price--box---price----sign">$</p>
-                                    <p class="cw-price--box---price----cost">35</p>
-                                    <p class="cw-price--box---price----duration align-self-end">/ monthly</p>
+                                    <p class="cw-price--sign">$</p>
+                                    <p>35</p>
+                                    <p class="align-self-end">/ monthly</p>
                                 </div>
                                 <div class="cw-price--box---description">
                                     Minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
