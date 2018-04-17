@@ -62,7 +62,7 @@ gulp.task('rsync', function() {
 
 gulp.task('watch', ['styles', 'js', 'browser-sync'], function() {
 	gulp.watch('app/'+syntax+'/**/*.'+syntax+'', ['styles']);
-	gulp.watch(['libs/**/*.js', 'app/js/common.js'], ['js']);
+	// gulp.watch(['libs/**/*.js', 'app/js/common.js'], ['js']);
 	gulp.watch('app/*.html', browsersync.reload)
 });
 
